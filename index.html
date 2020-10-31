@@ -14,12 +14,33 @@
     
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <style>
+      .profile-pic {
+        float:left;
+        height:120px;
+        margin-right:10px;
+        border: 2px solid #d9d9d9;
+        border-radius: 3px;
+      }
+      #big-logo {
+        float:left;
+        height:150px;
+        margin-right:30px;
+        border: 2px solid #d9d9d9;
+        border-radius: 3px;
+      }
+      #small-logo {
+        height:50px;
+        background-color: #F2F2F2;
+      }
+    </style>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" width=50>
+        <img src="images/logo_transparent.png" id="small-logo">
       </a>
 
       <!-- Links -->
@@ -30,7 +51,8 @@
       </ul>
 
     </nav>
-    <div class="container">
+
+    <div class="container pt-4 border">
       <ul class="nav nav-tabs">
         <li class="nav-item">
           <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
@@ -41,20 +63,99 @@
         <li class="nav-item">
           <a class="nav-link" data-toggle="pill" href="#softwaretab">Software</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#pubstab">Publications</a>
+        </li>
       </ul>
 
       <!-- Tab panes -->
-      <div class="tab-content">
+      <div class="tab-content pt-4">
         <div class="tab-pane container active" id="home">
-          <h1>Our organization</h1>
-          <p>This is some text.</p>
+          <img src="images/logo.jpg" id="big-logo">
+          <h2>Our organization</h2>
+          <p>QuatroPe is a non for profit organization devoted to create quality software</p>
+          <h2>Our mission</h2>
+          <p>Our mission is to foster high-quality scientific software, by mentoring
+            people and outreach and mentoring projects.
+          </p>
         </div>
+
         <div class="tab-pane container fade" id="aboutustab">
-          Juan, Martin, Bruno
+          <h1>Our Team</h1>
+          <div class="card mt-3">
+            <div class="card-body">
+              <img src="images/jbc.jpg" class="profile-pic">
+              <p>Juan is a full stack developer and software engineer with extensive Python, web and scientific programming experience.</p>
+                <p>He is the co-founder of Scipy LatAm Community, has served as the Chair of PyCon Argentina 2012 --the Python Argentina flagship conference-- and has been the Chair of SciPy LatAm 2015.</p>
+              <p>He currently holds a post-doctoral researcher position at CIFASIS-CONICET, a national research inistitution in Argentina.</p>
+              <p>His interest include Machine Learning, Astrophysics data analysis, Scientific Software Engineering, and Experimental Economy.</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="card-body">
+              <img src="images/martin.jpg" class="profile-pic">
+              <p>Martin is an expert Python and C programmer with extensive skills in web development and the design of libraries and applications.</p>
+              <p>He is currently employed by the Univesity of Texas Rio Grande Valley in a postdoctoral position.</p>
+              <p>His interests include API Design, User Experience, Astronomy Software and Automation.</p>
+            </div>
+          </div>
+          <div class="card mt-3 mb-3">
+            <div class="card-body">
+              <img src="images/bruno.jpg" class="profile-pic">
+              <p>Bruno is an astrophysicist with extensive knowledge in programming and mentoring students.</p>
+              <p>His main research topics include Cosmology, and Data Analysis in Time Domain Astronomy.</p>
+              <p>He is currently employed by the Physics Department of Duke University in a postdoctoral position.
+                He is member of the Dark Energy Science Collaboration that will probe into cosmology using data from the
+                Legacy Survey of Space and Time.</p>
+            </div>
+          </div>
         </div>
+
         <div class="tab-pane container fade" id="softwaretab">
-          Feets, Astroalign, Properimage
+          <h1>Our Software</h1>
+          <div class="card mt-3">
+            <div class="card-body">
+              <p><a href="http://feets.readthedocs.io">Feets</a></p>
+              <p><img src="https://travis-ci.org/quatrope/feets.svg?branch=master"></p>
+              <p>Feets is a library with a compilation of some of the existing light-curve features. The main goal is to create a collaborative and open tool where every user can characterize or analyze an astronomical photometric database while also contributing to the library by adding new features.</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="card-body">
+              <p><a href="https://astroalign.readthedocs.io">Astroalign</a></p>
+              <p><img src="https://travis-ci.org/toros-astro/astroalign.svg?branch=master"></p>
+              <p>Astroalign is a python module that will try to align two stellar astronomical images, especially when there is no WCS information available.</p>
+              <p>It does so by finding similar 3-point asterisms (triangles) in both images and deducing the affine transformation between them.</p>
+            </div>
+          </div>
+          <div class="card mt-3 mb-3">
+            <div class="card-body">
+              <p><a href="http://properimage.readthedocs.io">Properimage</a></p>
+              <p><img src="https://travis-ci.org/toros-astro/ProperImage.svg?branch=master"></p>
+              <p>Properimage is an implementation of the algorithms described in Zackay & Ofek 2017 papers, "How to coadd images".
+              <ul>
+              <li>It performs PSF estimation using Karhunen-Loeve expansion, which is based on Lauer 2002 work.</li>
+              <li>It performs statistical proper coadd of several images.</li>
+              <li>It performs proper-subtraction of images.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mt-3 mb-3">
+            <div class="card-body">
+              <p><a href="https://automix.readthedocs.io">AutoMix</a></p>
+              <p><img src="https://travis-ci.org/quatrope/AutoMix.svg?branch=master"></p>
+              <p>The AutoMix package is a C program for Unix-like systems, implementing the automatic Reversible Jump MCMC sampler of the same name described in Chapters 4, 5, and 6 of David Hastie's doctoral thesis.</p>
+              <p>While the original AutoMix is very useful, the fact that it can only be used as an executable can limit its applicability. LibAutoMix makes the core algorithms of the AutoMix program available as a library of stand-alone functions and data structures. The code is completely derived from the original AutoMix code base and aims to produce results compatible with it whenever possible. LibAutoMix is a C library with no dependencies outside the standard library.</p>
+            </div>
+          </div>
         </div>
+
+        <div class="tab-pane container fade" id="pubstab">
+          <ul>
+            <li>"Two co-addition and image subtraction codes" - Bruno O. Sanchez, Martin Beroiz, Martin Chalela and Juan B. Cabral.</li>
+          </ul>
+        </div>
+
       </div>
 
     </div>
