@@ -1,7 +1,7 @@
 
 # Projects
 
-{{site.quatrope_toplevel_project }}
+{{ site }}
 
 {% for prj in site.quatrope_toplevel_project %}
 - [{{ prj.name }}]({{ prj.link }}): {{ prj.description }}
