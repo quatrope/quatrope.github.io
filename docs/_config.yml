@@ -27,6 +27,7 @@ navbar:
 
 people: 
     - name: Bruno Sanchez
+      link: "https://scholars.duke.edu/person/bruno.sanchez"
       avatar: "https://github.com/quatrope/quatrope.github.io/raw/master/legacy/images/bruno.jpg"
       description: 
         Bruno is an astrophysicist with extensive knowledge in programming and mentoring students.
