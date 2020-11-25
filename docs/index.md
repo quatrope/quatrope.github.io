@@ -7,6 +7,8 @@ Many of the QuatroPe tools emerged as independent efforts of
 its members and were integrated into the organization in order to maintain and
 improve them.
 
+{: .-two-column}
+
 ## [Astroalign](https://astroalign.readthedocs.io)
 
 Astroalign is a python module that will try to align two stellar astronomical
