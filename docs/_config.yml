@@ -25,7 +25,22 @@ navbar:
     - title: Legal
       link: legal
 
+people: 
+    - name: Bruno Sanchez
+      avatar: "https://github.com/quatrope/quatrope.github.io/raw/master/legacy/images/bruno.jpg"
+      description: 
+        Bruno is an astrophysicist with extensive knowledge in programming and mentoring students.
+        His main research topics include Cosmology, and Data Analysis in Time Domain Astronomy.
+        
+        He is currently employed by the Physics Department of Duke University in a postdoctoral position.
+        
+        He is member of the Dark Energy Science Collaboration that will probe into cosmology using data from the
+        Legacy Survey of Space and Time.
+        
+
+
 quatrope_toplevel_projects:
     - name: Carpyncho
       description: "Carpyncho, is a catalog browser that we hope will be reutilized to search for and characterize time variable data of the ~PiB size VVV/VVVx survey."
       link: "https://carpyncho.github.io/"
+
