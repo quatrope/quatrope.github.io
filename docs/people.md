@@ -3,7 +3,11 @@
 
 {% for person in site.people %}
 ## {{ person.name }}
+![Avatar]({{ person.avatar }})
+
 > {{ person.description }}
+
+[More info]({{ person.link }})
 {% endfor %}
 
 -   Martín Beroiz ()
