@@ -4,6 +4,6 @@
 
 {% for repository in site.github.public_repositories %}
   <a href='{{ repository.html_url }}'>
-    {{ repository.name }}
+    {{ repository }}
   </a>
 {% endfor %}
