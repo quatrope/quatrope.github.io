@@ -1,7 +1,7 @@
 
 # People
 
-{% for person in people %}
+{% for person in site.people %}
 ## {{ person.name }}
 > {{ person.description }}
 {% endfor %}
