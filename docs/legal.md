@@ -1,0 +1,4 @@
+
+# Legal
+
+Copiar a pallets

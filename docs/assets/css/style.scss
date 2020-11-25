@@ -1,0 +1,45 @@
+---
+---
+
+$header-heading-color: #e4e5e7;
+$body-link-color: #205692;
+$section-headings-color: #6680ff;
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-color: #205692;
+  background-image: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.prj-logo {
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  text-align: center;
+  background-color: white;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #205692;
+  background-color: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: #205692;
+}
