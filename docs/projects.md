@@ -1,12 +1,7 @@
 
 # Projects
 
-
-<ul>
 {% for repository in site.github.public_repositories %}
-<li>
-<a class="btn" href='{{ repository.html_url }}'>{{ repository.name }}<a>: {{ repository.description }}
-</li>
-
+- [{{ repository.name }}]({{ repository.html_url }}): {{ repository.description }}
 {% endfor %}
-<ul>
+
