@@ -1,6 +1,10 @@
 
 # People
 
+{% for person in people %}
+## {{ person.name }}
+> {{ person.description }}
+{% endfor %}
 
 -   Martín Beroiz ()
 -   [Juan B Cabral](https://jbcabral.org) (CIFASIS-UNR, IATE-OAC-UNC).
