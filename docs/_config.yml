@@ -27,5 +27,5 @@ navbar:
 
 quatrope_toplevel_projects:
     - name: Carpyncho
-      description: fafafa
+      description: "Carpyncho, is a catalog browser that we hope will be reutilized to search for and characterize time variable data of the ~PiB size VVV/VVVx survey."
       link: "https://carpyncho.github.io/"
