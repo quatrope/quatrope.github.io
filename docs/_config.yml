@@ -24,3 +24,8 @@ navbar:
 
     - title: Legal
       link: legal
+
+quatrope_toplevel_projects:
+    - name: Carpyncho
+      description: fafafa
+      link: https://carpyncho.github.io/
