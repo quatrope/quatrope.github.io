@@ -3,16 +3,14 @@
 
 {% for person in site.people %}
 ## {{ person.name }}
+<span class="avatar"> 
 ![Avatar]({{ person.avatar }})
-
+<span>
 > {{ person.description }}
 
 [More info]({{ person.link }})
 {% endfor %}
 
--   Martín Beroiz ()
--   [Juan B Cabral](https://jbcabral.org) (CIFASIS-UNR, IATE-OAC-UNC).
--   Bruno Sanchez (Department of Physics, Duke University).
 
 
 ## Afiliaciones
