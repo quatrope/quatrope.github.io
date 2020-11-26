@@ -62,10 +62,12 @@ people:
         His interests include Machine Learning, Astrophysics data analysis, Scientific Software Engineering, and Experimental Economy.
 
 
-
-
 quatrope_toplevel_projects:
     - name: Carpyncho
       description: "Carpyncho, is a catalog browser that we hope will be reutilized to search for and characterize time variable data of the ~PiB size VVV/VVVx survey."
       link: "https://carpyncho.github.io/"
 
+
+publications:
+    - citation: "Beroiz, M., Cabral, J. B., & Sanchez, B. (2020). Astroalign: A Python module for astronomical image registration. Astronomy and Computing, 100384."
+      link: "https://www.sciencedirect.com/science/article/pii/S221313372030038X"

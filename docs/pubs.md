@@ -2,4 +2,7 @@
 # Publications
 
 
-Abria que copiar una estructura parecida a la de mi pagina
+{% for pub in site.publications %}
+> {{ pub.citation }} [Link]({{ pub.link }})
+
+{% endfor %}
