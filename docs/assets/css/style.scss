@@ -1,11 +1,16 @@
 ---
 ---
 
+// https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss
+
+$large-breakpoint: 80%;
 $header-heading-color: #e4e5e7;
 $body-link-color: #205692;
 $section-headings-color: #6680ff;
 
 @import "{{ site.theme }}";
+
+
 
 .page-header {
   background-color: #205692;
