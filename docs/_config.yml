@@ -11,15 +11,18 @@ sitecolor: "#205692"
 logo: assets/imgs/quatrope_logo.png
 favicon: assets/imgs/favicon.ico
 
+license_link: legal
+contact_link: contact
+
 navbar:
     - title: Projects
       link: projects
 
-    - title: People
-      link: people
-
     - title: Publications
       link: pubs
+
+    - title: People
+      link: people
 
     - title: Legal
       link: legal
@@ -28,38 +31,38 @@ people:
     - name: Bruno Sanchez
       link: "https://scholars.duke.edu/person/bruno.sanchez"
       description:
-        Bruno is an astrophysicist with extensive knowledge in programming
-        and mentoring students.
+          Bruno is an astrophysicist with extensive knowledge in programming
+          and mentoring students.
 
-        His main research topics include Cosmology, and Data Analysis in Time
-        Domain Astronomy.
+          His main research topics include Cosmology, and Data Analysis in Time
+          Domain Astronomy.
 
-        He is currently employed by the Physics Department of Duke University
-        in a postdoctoral position.
+          He is currently employed by the Physics Department of Duke University
+          in a postdoctoral position.
 
-        He is member of the Dark Energy Science Collaboration that will probe into cosmology using data from the
-        Legacy Survey of Space and Time.
+          He is member of the Dark Energy Science Collaboration that will probe into cosmology using data from the
+          Legacy Survey of Space and Time.
 
     - name: Martin Beroiz
       link: "https://martinberoiz.org/"
       description:
-        Martin is an expert Python and C programmer with extensive skills in web development and the design of libraries and applications.
+          Martin is an expert Python and C programmer with extensive skills in web development and the design of libraries and applications.
 
-        He is currently employed by the Univesity of Texas Rio Grande Valley in a postdoctoral position.
+          He is currently employed by the Univesity of Texas Rio Grande Valley in a postdoctoral position.
 
-        His interests include API Design, User Experience, Astronomy Software and Automation.
+          His interests include API Design, User Experience, Astronomy Software and Automation.
 
     - name: Juan B Cabral
       link: "https://jbcabral.org"
       description:
-        Juan is a full stack developer and software engineer with extensive Python, web and scientific programming experience.
+          Juan is a full stack developer and software engineer with extensive Python, web and scientific programming experience.
 
-        He is the co-founder of Scipy LatAm Community, has served as the Chair of PyCon Argentina 2012
-        --the Python Argentina flagship conference-- and has been the Chair of SciPy LatAm 2015.
+          He is the co-founder of Scipy LatAm Community, has served as the Chair of PyCon Argentina 2012
+          --the Python Argentina flagship conference-- and has been the Chair of SciPy LatAm 2015.
 
-        He currently holds a post-doctoral researcher position at CIFASIS-CONICET, a national research institution in Argentina.
+          He currently holds a post-doctoral researcher position at CIFASIS-CONICET, a national research institution in Argentina.
 
-        His interests include Machine Learning, Astrophysics data analysis, Scientific Software Engineering, and Experimental Economy.
+          His interests include Machine Learning, Astrophysics data analysis, Scientific Software Engineering, and Experimental Economy.
 
 
 quatrope_toplevel_projects:
