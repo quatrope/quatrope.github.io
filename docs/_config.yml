@@ -69,6 +69,9 @@ quatrope_toplevel_projects:
     - name: Carpyncho
       description: "Carpyncho, is a catalog browser that we hope will be reutilized to search for and characterize time variable data of the ~PiB size VVV/VVVx survey."
       link: "https://carpyncho.github.io/"
+    - name: PyCF3
+      description: "Cosmicflows Galaxy Distance-Velocity Calculator client for Python."
+      link: "https://pycf3.readthedocs.io/"
 
 
 publications:
