@@ -16,9 +16,7 @@ images, especially when there is no WCS information available.
 It does so by finding similar 3-point asterisms (triangles) in both images and
 deducing the affine transformation between them.
 
-
 [![Build Status](https://travis-ci.com/toros-astro/astroalign.svg?branch=master)](https://travis-ci.com/toros-astro/astroalign)
-[![Coverage](https://codecov.io/github/toros-astro/astroalign/coverage.svg?branch=master)](https://codecov.io/github/toros-astro/astroalign)
 [![Documentation Status](https://readthedocs.org/projects/astroalign/badge/?version=latest)](http://astroalign.readthedocs.org/en/latest/?badge=latest)
 [![Updates](https://pyup.io/repos/github/toros-astro/astroalign/shield.svg)](https://pyup.io/repos/github/toros-astro/astroalign/)
 [![Python 3](https://pyup.io/repos/github/toros-astro/astroalign/python-3-shield.svg)](https://pyup.io/repos/github/toros-astro/astroalign/)
