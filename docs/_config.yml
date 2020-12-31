@@ -24,9 +24,6 @@ navbar:
     - title: People
       link: people
 
-    - title: License
-      link: legal
-
 people:
     - name: Bruno Sanchez
       link: "https://scholars.duke.edu/person/bruno.sanchez"
