@@ -78,5 +78,16 @@ quatrope_toplevel_projects:
 
 
 publications:
+
     - citation: "Beroiz, M., Cabral, J. B., & Sanchez, B. (2020). Astroalign: A Python module for astronomical image registration. Astronomy and Computing, 100384."
       link: "https://www.sciencedirect.com/science/article/pii/S221313372030038X"
+
+    - citation: "Sánchez, B., Lares, M., Beroiz, M., Cabral, J. B., Gurovich, S., Quiñones, C., ... & Tornatore, M. (2019). Machine learning on difference image analysis: A comparison of methods for transient detection. Astronomy and Computing, 28, 100284."
+      link: "https://www.sciencedirect.com/science/article/pii/S2213133718300982"
+
+    - citation: "Cabral, J. B., Sánchez, B., Ramos, F., Gurovich, S., Granitto, P. M., & Vanderplas, J. (2018). From FATS to feets: Further improvements to an astronomical feature extraction tool based on machine learning. Astronomy and computing, 25, 213-220."
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S2213133718300581"
+
+    - citation: "Cabral, J. B., Sánchez, B., Beroiz, M., Domínguez, M., Lares, M., Gurovich, S., & Granitto, P. (2017). Corral framework: Trustworthy and fully functional data intensive parallel astronomical pipelines. Astronomy and computing, 20, 140-154."
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S2213133717300069"
+
