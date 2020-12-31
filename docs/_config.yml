@@ -24,7 +24,7 @@ navbar:
     - title: People
       link: people
 
-    - title: Legal
+    - title: License
       link: legal
 
 people:
