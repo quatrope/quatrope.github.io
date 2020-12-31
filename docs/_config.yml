@@ -63,6 +63,13 @@ people:
 
 
 quatrope_toplevel_projects:
+    - name: Astroalign
+      description: Astroalign is a python module that will try to align two stellar astronomical images, especially when there is no WCS information available.
+      link: "https://astroalign.readthedocs.io/".
+    - name: Properimage
+      description: Properimage
+      Properimage is an implementation of the algorithms described in Zackay & Ofek 2017 papers, “How to coadd images” 1 2.
+      link: "https://properimage.readthedocs.io/"
     - name: Carpyncho
       description: "Carpyncho, is a catalog browser that we hope will be reutilized to search for and characterize time variable data of the ~PiB size VVV/VVVx survey."
       link: "https://carpyncho.github.io/"
