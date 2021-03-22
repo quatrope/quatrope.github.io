@@ -16,10 +16,10 @@ images, especially when there is no WCS information available.
 It does so by finding similar 3-point asterisms (triangles) in both images and
 deducing the affine transformation between them.
 
-[![Build Status](https://travis-ci.com/toros-astro/astroalign.svg?branch=master)](https://travis-ci.com/toros-astro/astroalign)
+[![Build Status](https://travis-ci.com/quatrope/astroalign.svg?branch=master)](https://travis-ci.com/quatrope/astroalign)
 [![Documentation Status](https://readthedocs.org/projects/astroalign/badge/?version=latest)](http://astroalign.readthedocs.org/en/latest/?badge=latest)
-[![Updates](https://pyup.io/repos/github/toros-astro/astroalign/shield.svg)](https://pyup.io/repos/github/toros-astro/astroalign/)
-[![Python 3](https://pyup.io/repos/github/toros-astro/astroalign/python-3-shield.svg)](https://pyup.io/repos/github/toros-astro/astroalign/)
+[![Updates](https://pyup.io/repos/github/quatrope/astroalign/shield.svg)](https://pyup.io/repos/github/quatrope/astroalign/)
+[![Python 3](https://pyup.io/repos/github/quatrope/astroalign/python-3-shield.svg)](https://pyup.io/repos/github/quatrope/astroalign/)
 [![PyPI](https://img.shields.io/pypi/v/astroalign)](https://pypi.org/project/astroalign/)
 [![ascl:1906.001](https://img.shields.io/badge/ascl-1906.001-blue.svg?colorB=262255)](http://ascl.net/1906.001)
 
