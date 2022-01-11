@@ -57,9 +57,9 @@ people:
           He is the co-founder of Scipy LatAm Community, has served as the Chair of PyCon Argentina 2012
           --the Python Argentina flagship conference-- and has been the Chair of SciPy LatAm 2015.
 
-          He currently holds a post-doctoral researcher position at CIFASIS-CONICET, a national research institution in Argentina.
+          He currently holds a  researcher position at CONAE and IATE-OAC-CONICET, a national research institution in Argentina.
 
-          His interests include Machine Learning, Astrophysics data analysis, Scientific Software Engineering, and Experimental Economy.
+          His interests include Machine Learning, Astrophysics data analysis, Scientific Software Engineering, Decision theory and Experimental Economy.
 
 
 quatrope_toplevel_projects:
@@ -75,6 +75,9 @@ quatrope_toplevel_projects:
     - name: PyCF3
       description: "Cosmicflows Galaxy Distance-Velocity Calculator client for Python."
       link: "https://pycf3.readthedocs.io/"
+    - name: Scikit-Criteria
+      description: "Scikit-Criteria is a collection of Multiple-criteria decision analysis ([MCDA](https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis)) methods integrated into scientific python stack. Is Open source and commercially usable."
+      link: "https://scikit-criteria.readthedocs.io"
 
 
 publications:
