@@ -42,6 +42,22 @@ papers, "How to coadd images" [1](https://iopscience.iop.org/article/10.3847/153
 
 ---
 
+## [Scikit-Criteria](https://scikit-criteria.readthedocs.io/en/latest/)
+
+
+Scikit-Criteria is a collection of Multiple-criteria decision
+analysis ([MCDA](https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis))
+methods integrated into scientific python stack. Is Open source and commercially usable.
+
+[![Gihub Actions CI](https://github.com/quatrope/scikit-criteria/actions/workflows/CI.yml/badge.svg)](https://github.com/quatrope/scikit-criteria/actions/workflows/CI.yml)
+[![Documentation Status](https://readthedocs.org/projects/scikit-criteria/badge/?version=latest&style=flat)](http://scikit-criteria.readthedocs.io)
+[![PyPI](https://img.shields.io/pypi/v/scikit-criteria)](https://pypi.org/project/scikit-criteria/)
+[![License](https://img.shields.io/pypi/l/uttrs?color=blue)](https://www.tldrlegal.com/l/bsd3)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://badge.fury.io/py/uttrs)
+
+
+---
+
 ## [Carpyncho](https://carpyncho.github.io/)
 
 Carpyncho, is a catalog browser that we hope will be reutilized to search for and
