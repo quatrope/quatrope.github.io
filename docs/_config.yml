@@ -26,7 +26,7 @@ navbar:
 
 people:
     - name: Bruno Sanchez
-      link: "https://scholars.duke.edu/person/bruno.sanchez"
+      link: "https://brunosanchez.github.io/"
       description:
           Bruno is an astrophysicist with extensive knowledge in programming
           and mentoring students.
@@ -45,7 +45,7 @@ people:
       description:
           Martin is an expert Python and C programmer with extensive skills in web development and the design of libraries and applications.
 
-          He is currently employed by the Univesity of Texas Rio Grande Valley in a postdoctoral position.
+          He is currently employed by the California Institue of Technology (Caltech) in a research staff position.
 
           His interests include API Design, User Experience, Astronomy Software and Automation.
 
