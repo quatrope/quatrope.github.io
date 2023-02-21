@@ -26,4 +26,4 @@ The Quatrope Code of Conduct was created using the GPT language model and incorp
 - [SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
 - [Astropy Code of Conduct](http://www.astropy.org/code_of_conduct.html)
 
-This code of conduct was last updated on October 28, 2021, and may be subject to future changes or updates.
+This code of conduct was last updated on February 21, 2022, and may be subject to future changes or updates.
