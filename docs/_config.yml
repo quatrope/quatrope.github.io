@@ -12,6 +12,7 @@ logo: assets/imgs/quatrope_logo.png
 favicon: assets/imgs/favicon.ico
 
 license_link: legal
+coc_link: code_of_conduct
 contact_link: contact
 
 navbar:
